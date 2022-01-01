@@ -1,8 +1,9 @@
 #include <algorithm.hpp>
 #include <stack>
 
-bool ValidParentheses::isValid(string s) {
-    // for every character in s,
+bool ValidParentheses::isValid(string s)
+{
+    // For every character in s,
     // For a "open" bracket, push it to the stack
     // For a "close" bracket,
     // Return false if stack is empty
@@ -15,18 +16,23 @@ bool ValidParentheses::isValid(string s) {
 
     stack<char> check;
 
-    for(int i = 0; i < s.length(); i++ ){
+    for (int i = 0; i < s.length(); i++)
+    {
         char current = s[i];
 
-        size_t find = closeBrackets.find( current );
+        size_t find = closeBrackets.find(current);
 
-        if( find == string::npos){
-            check.push( current );
-        } else {
-            if( check.empty())
+        if (find == string::npos)
+        {
+            check.push(current);
+        }
+        else
+        {
+            if (check.empty())
                 return false;
 
-            if( check.top() != openBrackets[find] ){
+            if (check.top() != openBrackets[find])
+            {
                 return false;
             }
 

@@ -1,9 +1,0 @@
-make --dry-run --keep-going --print-directory
-find: include/**/*: No such file or directory
- 
-make: Entering directory `/Users/chgu/Work/Projects/algorithm'
- 
-make: Leaving directory `/Users/chgu/Work/Projects/algorithm'
- 
-Makefile:24: *** missing separator.  Stop.
- 
