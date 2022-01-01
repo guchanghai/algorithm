@@ -2,7 +2,6 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 3.81
 # Copyright (C) 2006  Free Software Foundation, Inc.
 # This is free software; see the source for copying conditions.
- 
 # There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.
 
@@ -10,23 +9,21 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
  
 find: include/**/*: No such file or directory
  
-Makefile:57: *** missing separator.  Stop.
+Makefile:24: *** missing separator.  Stop.
  
 
-# Make data base, printed on Tue Dec 28 21:37:26 2021
+# Make data base, printed on Sat Jan  1 05:49:19 2022
 
 # Variables
 
 # automatic
+ 
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
- 
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 VSCODE_LOG_NATIVE = false
-# makefile (from `Makefile', line 23)
+# makefile (from `Makefile', line 14)
 TARGET := bin/algorithm
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
@@ -42,52 +39,38 @@ SHELL = /bin/sh
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
-# makefile (from `Makefile', line 53)
-CFLAGS := -c -std=c++11 -stdlib=libc++ -O2
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
-# makefile (from `Makefile', line 30)
-SOURCES := src/median-two-arrays/median-two-arrays.cpp
 # environment
 VSCODE_VERBOSE_LOGGING = true
-# makefile (from `Makefile', line 18)
+# makefile (from `Makefile', line 9)
 BUILDDIR := build
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/wm/z4mhs03s3tb0wltn81s0fmnm0000gp/T/vscode-ipc-4a533f9a-2ce4-4f0b-9aca-6fb4c54fd695.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/wm/z4mhs03s3tb0wltn81s0fmnm0000gp/T/vscode-ipc-c78dbcb1-4c18-4b64-a2df-768f18f48801.sock
 # environment
-VSCODE_CWD = /Users/chgu/Work/Projects/html
+VSCODE_CWD = /
 # environment
-PATH = /usr/local/opt/node@12/bin:/Users/chgu/.nvm/versions/node/v12.15.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/chgu/Downloads/apache-maven-3.5.2/bin:/usr/local/mysql/bin
+PATH = /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 # environment
-NVM_BIN = /Users/chgu/.nvm/versions/node/v12.15.0/bin
-# environment
-LaunchInstanceID = E7739031-CF79-412C-804E-AD45C439FE6E
+LaunchInstanceID = 9BC12AFA-7838-4EE8-948A-B4D710E8D415
 # environment
 VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# environment
-KUBECONFIG = /Users/chgu/Work/Code/k8s-kubeconfig/kubeconfig.yaml
-# makefile (from `Makefile', line 42)
-LIB := -L /usr/local/lib -lsantacruzengine -lsantacruzlib -larcadia -lcorinth -lyaml-cpp -lzmq -lhiredis -lbondoas
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.NMvY2ZqZgc/Listeners
-# makefile (from `Makefile', line 17)
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Kt25BVez4x/Listeners
+# makefile (from `Makefile', line 8)
 SRCDIR := src
 # automatic
 %F = $(notdir $%)
-# makefile (from `Makefile', line 7)
-UNAME_S := Darwin
 # environment
-DISPLAY = /private/tmp/com.apple.launchd.OeVxeu77jy/org.xquartz:0
+DISPLAY = /private/tmp/com.apple.launchd.XqHfEIhZNs/org.xquartz:0
 # environment
 VSCODE_PIPE_LOGGING = true
-# makefile (from `Makefile', line 37)
-BUILDLIST := 
 # environment
 PWD = /Users/chgu/Work/Projects/algorithm
 # environment
@@ -99,55 +82,41 @@ HOME = /Users/chgu
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
-VSCODE_CLI = 1
-# environment
 VSCODE_CODE_CACHE_PATH = /Users/chgu/Library/Application Support/Code/CachedData/899d46d82c4c95423fb7e10e68eba52050e30ba3
 # environment
 LOGNAME = chgu
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
-NVM_CD_FLAGS = 
-# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 XPC_FLAGS = 0x0
-# makefile (from `Makefile', line 36)
-INCLIST := 
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 3
-# makefile (from `Makefile', line 11)
-CC := clang++ -arch x86_64
-# environment
-JAVA_HOME = /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home
+SHLVL = 1
+# makefile (from `Makefile', line 5)
+CC := gcc
 # default
 MAKE_VERSION := 3.81
 # environment
 USER = chgu
 # makefile
-.DEFAULT_GOAL := bin/algorithm
-# environment
-TERM_SESSION_ID = 49DB4135-6220-4909-93FC-D4ECE46CC4C1
-# makefile (from `Makefile', line 19)
+.DEFAULT_GOAL := build
+# makefile (from `Makefile', line 10)
 TARGETDIR := bin
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# makefile (from `Makefile', line 35)
- 
+# makefile (from `Makefile', line 21)
 INCDIRS := 
 # default
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
-# makefile (from `Makefile', line 41)
-INC := -I include  -I /usr/local/include
-# environment
-TERM_PROGRAM = Apple_Terminal
 # default
+ 
 .VARIABLES := 
 # environment
 TMPDIR = /var/folders/wm/z4mhs03s3tb0wltn81s0fmnm0000gp/T/
@@ -162,17 +131,11 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-TERM_PROGRAM_VERSION = 443
-# environment
-NVM_DIR = /Users/chgu/.nvm
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.101560146.101560152.06460121-5EAC-4353-BE2A-FC690A1A97E2
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.101560146.101560152
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
 +F = $(notdir $+)
-# makefile (from `Makefile', line 29)
-SRCEXT := cpp
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F6:0x0:0x0
 # environment
@@ -181,12 +144,12 @@ COMMAND_MODE = unix2003
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
-# makefile (from `Makefile', line 22)
+# makefile (from `Makefile', line 13)
 EXECUTABLE := algorithm
 # environment
 LC_ALL = C
 # environment
-SECURITYSESSIONID = 186a4
+SECURITYSESSIONID = 186a6
 # automatic
 ^F = $(notdir $^)
 # default
@@ -195,18 +158,14 @@ SUFFIXES :=
 .INCLUDE_DIRS = /usr/local/include
 # environment
 MAKELEVEL := 0
-# makefile (from `Makefile', line 31)
-OBJECTS := build/median-two-arrays/median-two-arrays.o
-# makefile (from `Makefile', line 26)
+# makefile (from `Makefile', line 17)
 INSTALLBINDIR := /usr/local/bin
 # environment
 LANG = C
 # environment
-TERM = xterm-256color
-# environment
-VSCODE_PID = 42246
+VSCODE_PID = 912
 # variable set hash-table stats:
-# Load=93/1024=9%, Rehash=0, Collisions=2/133=2%
+# Load=73/1024=7%, Rehash=0, Collisions=1/92=1%
 
 # Pattern-specific Variable Values
 
@@ -214,9 +173,9 @@ VSCODE_PID = 42246
 
 # Directories
 
-# . (device 16777225, inode 104585075): 9 files, no impossibilities.
+# . (device 16777223, inode 104585075): 12 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -243,13 +202,13 @@ Makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-.DEFAULT:
+build:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-bin/algorithm: build/median-two-arrays/median-two-arrays.o
+# Not a target:
+.DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -267,6 +226,6 @@ bin/algorithm: build/median-two-arrays/median-two-arrays.o
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Dec 28 21:37:26 2021
+# Finished Make data base on Sat Jan  1 05:49:19 2022
 
  
